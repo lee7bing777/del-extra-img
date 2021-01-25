@@ -1,0 +1,15 @@
+{
+  "name": "del-extra-img",
+  "version": "1.0.0",
+  "description": "比对文件，删除重复图片",
+  "main": "index.js",
+  "bin": {
+    "delExtraImg": "./index.js"
+  },
+  "scripts": {
+    "delExtraImg": "node ./index.js"
+  },
+  "keywords": ["比对文件，删除重复图片"],
+  "author": "lee7bing",
+  "license": "ISC"
+}
