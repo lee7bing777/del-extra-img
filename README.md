@@ -1,6 +1,6 @@
 # 欢迎使用 del-spare-img
 
-**del-spare-img 比对文件，删除重复图片**
+**del-spare-img 比对文件，删除不同图片**
 
 ## 安装
 

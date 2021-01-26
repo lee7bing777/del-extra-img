@@ -1,7 +1,7 @@
 {
     "name": "del-spare-img",
-    "version": "0.0.2",
-    "description": "比对文件，删除重复图片",
+    "version": "0.0.4",
+    "description": "比对文件，删除不同图片",
     "main": "index.js",
     "bin": {
         "delSpareImg": "./index.js"
@@ -10,7 +10,7 @@
         "delSpareImg": "node ./index.js"
     },
     "keywords": [
-        "比对文件，删除重复图片"
+        "比对文件，删除不同图片"
     ],
     "author": "lee7bing",
     "license": "ISC"
