@@ -64,7 +64,7 @@ function delNullFiles(_path) {
                 if (file.length === 0) {
                     fs.rmdirSync(path.join(_path, item));
                 }
-            }k
+            }
         })
     } catch (error) {
         console.log(error, 'error...delNullFiles......');
