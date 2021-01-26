@@ -1,13 +1,13 @@
 {
-    "name": "del-extra-img",
-    "version": "1.0.0",
+    "name": "del-spare-img",
+    "version": "0.0.1",
     "description": "比对文件，删除重复图片",
     "main": "index.js",
     "bin": {
-        "delExtraImg": "./index.js"
+        "delSpareImg": "./index.js"
     },
     "scripts": {
-        "delExtraImg": "node ./index.js"
+        "delSpareImg": "node ./index.js"
     },
     "keywords": [
         "比对文件，删除重复图片"

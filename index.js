@@ -41,6 +41,10 @@ function getArrDifference(arr1, arr2) {
 }
 
 function delImg(arr) {
+    if (arr.length === 0) {
+        console.log('没有重复的图片......');
+        return;
+    }
     arr.map(ele => {
         try {
             fs.unlinkSync(path.join(delPath + '\\' + ele));
@@ -60,7 +64,7 @@ function delNullFiles(_path) {
                 if (file.length === 0) {
                     fs.rmdirSync(path.join(_path, item));
                 }
-            }
+            }k
         })
     } catch (error) {
         console.log(error, 'error...delNullFiles......');

@@ -1,11 +1,11 @@
-# 欢迎使用 del-extra-img
+# 欢迎使用 del-spare-img
 
-**del-extra-img 比对文件，删除重复图片**
+**del-spare-img 比对文件，删除重复图片**
 
 ## 安装
 
 ```bash
-$ npm install del-extra-img -D
+$ npm install del-spare-img -D
 ```
 
 ## 配置示例
@@ -14,7 +14,7 @@ $ npm install del-extra-img -D
 ```json
 {
      "scripts": {
-        "delExtraImg": "delExtraImg path=./imgs1 delPath=./imgs2"
+        "delSpareImg": "delSpareImg path=./imgs1 delPath=./imgs2"
     },
 }
 ```
