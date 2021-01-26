@@ -1,6 +1,6 @@
 {
     "name": "del-spare-img",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "比对文件，删除重复图片",
     "main": "index.js",
     "bin": {
